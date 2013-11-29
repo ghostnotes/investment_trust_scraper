@@ -1,0 +1,16 @@
+require './investment_trust.rb'
+
+puts '- started to get the info of investment trust.'
+
+investment_trust = InvestmentTrust.new
+#investment_trust.scrape_investment_trust_names(InvestmentTrust::LARGE_CATEGORY_CODE_DOMESTIC_STOCK]
+#investment_trust.scrape_investment_trust_names(InvestmentTrust::LARGE_CATEGORY_CODE_INSIDE_OUTSIDE_STOCK)
+#investment_trust.scrape_investment_trust_names(InvestmentTrust::LARGE_CATEGORY_CODE_OVERSEAS_STOCK)
+#investment_trust.scrape_investment_trust_names(InvestmentTrust::LARGE_CATEGORY_CODE_DOMESTIC_BOND)
+#investment_trust.scrape_investment_trust_names(InvestmentTrust::LARGE_CATEGORY_CODE_INSIDE_OUTSIDE_BOND)
+#investment_trust.scrape_investment_trust_names(InvestmentTrust::LARGE_CATEGORY_CODE_OVERSEAS_BOND)
+#investment_trust.scrape_investment_trust_names(InvestmentTrust::LARGE_CATEGORY_CODE_REAL_ESTATE)
+#investment_trust.scrape_investment_trust_names(InvestmentTrust::LARGE_CATEGORY_CODE_COMPLEX)
+#investment_trust.scrape_investment_trust_names(InvestmentTrust::LARGE_CATEGORY_CODE_OTHERS)
+#investment_trust.scrape_investment_trust_names(InvestmentTrust::LARGE_CATEGORY_CODE_ETF)
+investment_trust.scrape_investment_trust_names(InvestmentTrust::LARGE_CATEGORY_CODE_HIBI_KESSAN)
